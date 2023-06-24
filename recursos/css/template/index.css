@@ -216,6 +216,91 @@
 
 /* ----- FIN: Oferta  ----- */
 
+/* ----- INICIO: Favoritos  ----- */
+
+.favoritos {
+    margin: 2rem 0;
+}
+
+.favoritos-contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.favoritos-publicaciones {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .favoritos-publicaciones {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1440px) {
+
+}
+
+/* ----- FIN: Favoritos  ----- */
+
+/* ----- INICIO: Aplicación  ----- */
+
+.aplicacion {
+    margin: 2rem 0;
+}
+
+.aplicacion-contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.aplicacion-detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.aplicacion-titulo {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.aplicacion-dispositivos {
+    display: flex;
+    gap: 1rem;
+}
+
+.aplicacion-imagen {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .aplicacion-contenido {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
+}
+
+/* ----- FIN: Aplicación  ----- */
+
+/* ----- INICIO: Unete  ----- */
+
+/* ----- FIN: Unete  ----- */
+
 /* ----- INICIO: Plantilla  ----- */
 
 /* ----- FIN: Plantilla  ----- */
