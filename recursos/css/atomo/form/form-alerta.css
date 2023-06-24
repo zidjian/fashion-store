@@ -1,0 +1,8 @@
+.form-alerta {
+    display: none;
+}
+
+.form-alerta.requerido {
+    display: initial;
+    color: var(--alerta);
+}

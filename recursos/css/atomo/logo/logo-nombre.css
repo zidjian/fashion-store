@@ -1,0 +1,7 @@
+.logo-nombre {
+    display: initial;
+    margin-left: .5rem;
+    color: var(--principal);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
