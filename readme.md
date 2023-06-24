@@ -12,15 +12,16 @@
 - [Autores](#Autores)  
 ## Descripción del proyecto  
 Primer proyecto "Fashion"   
-![Mockup del proyecto]()   
+![Mockup del proyecto](./recursos/imagenes/mockup.png)   
 ## Funcionalidades del proyecto 
-- `Funcionalidad 1:`
-- `Funcionalidad 2:`
+- `Detalle 1:` Se creo el inicio de una pagina de inicio
+- `Detalle 2:` Se implemento carruceles con autoplay en algunas secciónes para mostrar mas contenido
 ## Acceso al proyecto
 [Demo](https://fashion-store-sable.vercel.app/)
 ## Tecnologías utilizadas
 - Html
 - Css
+- Swiper
 ## Autores
 | [<img src='https://www.github.com/zidjian.png' width=115><br><sub>Waldir Maidana </sub>](https://github.com/zidjian) |
 | :---: |
