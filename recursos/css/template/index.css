@@ -1,7 +1,6 @@
 /* ----- INICIO: Banner  ----- */
 
 .banner {
-
 }
 
 .banner-contenido {
@@ -21,7 +20,7 @@
     flex-direction: column;
     gap: 1rem;
     align-items: flex-start;
-    width: 50%;
+    width: 100%;
 }
 
 .resaltado {
@@ -37,7 +36,7 @@
     padding-right: 5rem;
     position: absolute;
     top: 0;
-    left: -.5rem;
+    left: -0.5rem;
     z-index: -1;
     transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
@@ -46,7 +45,7 @@
     -o-transform: rotate(-2deg);
 }
 
-.resaltado_amarillo::after { 
+.resaltado_amarillo::after {
     background-color: var(--primero);
 }
 
@@ -62,6 +61,15 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    .banner-detalles {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+        width: 50%;
+    }
+
     .banner-imagen {
         display: initial;
         width: 50%;
@@ -73,15 +81,33 @@
 }
 
 @media screen and (min-width: 1440px) {
-
 }
 
 /* ----- FIN: Banner  ----- */
 
+/* ----- INICIO: Proveedores  ----- */
 
+.proveedores {
+    background-color: var(--primero);
+    padding: 1rem 0;
+}
 
+.proveedores-contenido {
+}
 
+.proveedores-lista {
+}
 
+.proveedores-elemento {
+    display: flex;
+    align-items: center;
+}
+
+.proveedores-imagen {
+    width: 100%;
+}
+
+/* ----- FIN: Proveedores  ----- */
 
 /* ----- INICIO: Plantilla  ----- */
 

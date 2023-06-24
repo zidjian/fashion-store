@@ -8,6 +8,7 @@
         <link rel="shortcut icon" href="./recursos/imagenes/logo.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <!-- INICIO: Fuentes -->
         <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap"
             rel="stylesheet"
@@ -16,12 +17,18 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         />
-
-        <link rel="stylesheet" href="./recursos/css/reset.css">
-        <link rel="stylesheet" href="./recursos/css/colores.css">
-        <link rel="stylesheet" href="./recursos/css/base.css">
-        <link rel="stylesheet" href="./recursos/css/template/compartidos.css">
-        <link rel="stylesheet" href="./recursos/css/template/index.css">
+        <!-- FIN: Fuentes -->
+        <!-- INICIO: Estilos -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="./recursos/css/reset.css" />
+        <link rel="stylesheet" href="./recursos/css/colores.css" />
+        <link rel="stylesheet" href="./recursos/css/base.css" />
+        <link rel="stylesheet" href="./recursos/css/template/compartidos.css" />
+        <link rel="stylesheet" href="./recursos/css/template/index.css" />
+        <!-- FIN: Estilos -->
     </head>
     <body>
         <header class="cabecera">
@@ -70,14 +77,80 @@
             <div class="banner">
                 <div class="banner-contenido contenido contenido_parcial">
                     <div class="banner-detalles">
-                        <div class="banner-titulo"><span class="resaltado resaltado_blanco">Let's</span> explore <span class="resaltado resaltado_amarillo">unique</span> clothes.</div>
-                        <p class="banner-eslogan">Live for Influential and Innovative fashion!</p>
+                        <div class="banner-titulo">
+                            <span class="resaltado resaltado_blanco"
+                                >Let's</span
+                            >
+                            explore
+                            <span class="resaltado resaltado_amarillo"
+                                >unique</span
+                            >
+                            clothes.
+                        </div>
+                        <p class="banner-eslogan">
+                            Live for Influential and Innovative fashion!
+                        </p>
                         <a class="btn" href="">Shop now</a>
                     </div>
-                    <img class="banner-imagen" src="./recursos/imagenes/banner.png" />
+                    <img
+                        class="banner-imagen"
+                        src="./recursos/imagenes/banner.png"
+                    />
+                </div>
+            </div>
+            <div class="proveedores">
+                <div class="proveedores-conteido contenido contenido_parcial">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide proveedores-elemento"><img src="./recursos/imagenes/proveedores/proveedores 01.png" alt="" class="proveedores-imagen"></div>
+                            <div class="swiper-slide proveedores-elemento"><img src="./recursos/imagenes/proveedores/proveedores 02.png" alt="" class="proveedores-imagen"></div>
+                            <div class="swiper-slide proveedores-elemento"><img src="./recursos/imagenes/proveedores/proveedores 03.png" alt="" class="proveedores-imagen"></div>
+                            <div class="swiper-slide proveedores-elemento"><img src="./recursos/imagenes/proveedores/proveedores 04.png" alt="" class="proveedores-imagen"></div>
+                            <div class="swiper-slide proveedores-elemento"><img src="./recursos/imagenes/proveedores/proveedores 05.png" alt="" class="proveedores-imagen"></div>
+                            <div class="swiper-slide proveedores-elemento"><img src="./recursos/imagenes/proveedores/proveedores 06.png" alt="" class="proveedores-imagen"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
         <footer></footer>
+        <!-- INICIO: Scripts -->
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                freeMode: true,
+                slidesPerView: 2,
+                spaceBetween: 30,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                    },
+                    1024: {
+                        slidesPerView: 6,
+                        spaceBetween: 30,
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                    },
+                },
+            });
+        </script>
+
+        <!-- FIN: Scripts -->
     </body>
 </html>
