@@ -17,7 +17,7 @@ Primer proyecto "Fashion"
 - `Funcionalidad 1:`
 - `Funcionalidad 2:`
 ## Acceso al proyecto
-[Demo](https://aluraflix-phi-five.vercel.app/)
+[Demo](https://fashion-store-sable.vercel.app/)
 ## Tecnologías utilizadas
 - Html
 - Css
