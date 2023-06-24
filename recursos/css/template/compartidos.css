@@ -1,0 +1,95 @@
+/* ----- INICIO: Header  ----- */
+
+.cabecera {
+    padding: 0.5rem 0;
+}
+
+.cabecera-contenido {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navescritorio {
+    display: none;
+}
+
+.tooglemovil {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+    .tooglemovil {
+        display: none;
+    }
+
+    .navescritorio {
+        display: initial;
+    }
+
+    .navescritorio-lista {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .navescritorio-elemento {
+        list-style: none;
+    }
+
+    .navescritorio-enlace {
+        text-decoration: none;
+        color: var(--letra-oscura);
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+}
+
+/* ----- FIN: Header  ----- */
+
+/* ----- INICIO: Footer  ----- */
+
+/* ----- FIN: Footer  ----- */
+
+/* ----- INICIO: Generales  ----- */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-imagen {
+    width: 1.5rem;
+    height: auto;
+}
+
+.logo-nombre {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.icono {
+    line-height: 1;
+    font-size: 1.5rem;
+}
+
+.btn {
+    text-decoration: none;
+    color: var(--letra-clara);
+    background-color: var(--letra-oscura);
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+
+/* ----- FIN: Generales  ----- */
+
+/* ----- INICIO: Plantilla  ----- */
+
+/* ----- FIN: Plantilla  ----- */
