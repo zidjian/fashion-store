@@ -1,6 +1,7 @@
 /* ----- INICIO: Banner  ----- */
 
 .banner {
+    margin-bottom: 1rem;
 }
 
 .banner-contenido {
@@ -108,6 +109,53 @@
 }
 
 /* ----- FIN: Proveedores  ----- */
+
+/* ----- INICIO: Recientes  ----- */
+
+.recientes {
+    margin: 1rem 0;
+}
+
+.recientes-contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.recientes-swiper {
+    width: 100%;
+}
+
+.recientes-elemento {
+}
+
+.recientes-imagen {
+    width: 100%;
+}
+
+.recientes-detalles {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recientes-titulo {
+    font-weight: 500;
+    align-items: center;
+}
+
+.recientes-enlace {
+    color: var(--letra-semioscura);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+
+/* ----- FIN: Recientes  ----- */
+
+/* ----- INICIO: Plantilla  ----- */
+
+/* ----- FIN: Plantilla  ----- */
 
 /* ----- INICIO: Plantilla  ----- */
 

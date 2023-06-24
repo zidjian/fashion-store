@@ -88,6 +88,13 @@
     padding: 0.5rem 1rem;
 }
 
+.seccion-titulo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
 /* ----- FIN: Generales  ----- */
 
 /* ----- INICIO: Plantilla  ----- */
